@@ -1,0 +1,27 @@
+.title-1{
+  width: 270px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom:12px;
+  line-height: 18px;
+  margin-left: 8px;
+}
+.status-1,
+.channel-name{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: grey;
+  padding-left: 8px;
+}
+.channel-name{
+  margin-bottom: 8px;
+}
+body{
+  margin: 0;
+  padding: 60px 24px 0px 96px;
+  font-family: roboto,arial;
+}

@@ -1,0 +1,41 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  background-color:white;
+  width: 72px;
+  z-index: 200;
+}
+.sidebar-link{
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px 8px 0px;
+  flex-direction: column;
+}
+.sidebar-link:hover{
+  background-color:rgba(235,235,235);
+  cursor: pointer;
+}
+.subscribe-name,
+.home-name,
+.shorts-name,
+.libary-name{
+  width: 24px;
+  height: 24px;
+}
+.download-name{
+  width: 30px;
+  height: 30px;
+}
+.sidebar-link div{
+  font-size: 11px;
+  font-size: 500;
+  margin-top: 10px;
+}
+.shorts-name{
+  width: 28px;
+  height: 28px;
+}

@@ -1,0 +1,69 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 800px;
+  column-gap: 10px;
+}
+.container-1{
+  width: 300px;
+  display: inline block;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  height: 380px;
+}
+.one{
+  display: block;
+  width: 300px;
+}
+.imageone{
+  width: 100%;
+}
+.catname{
+  display: block;
+}
+.name1{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: arial;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+.logo-1{
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+.logo{
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.mutual{
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(100, 100, 100);
+}
+button{
+  display: block;
+  width: 170px;
+  height: 50px;
+  background-color: rgb(5, 179, 248);
+  color: white;
+  font-size: 17px;
+  font-family: arial;
+  font-weight: 700;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  transition: cursor 1s,box-shadow 1s;
+}
+.friends{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+

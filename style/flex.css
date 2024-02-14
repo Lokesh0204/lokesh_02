@@ -1,0 +1,29 @@
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+.one{
+  background-color: blue;
+  width: 250px;
+}
+.two{
+  background-color: pink;
+  width: 75px;
+}
+.flex2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.one2{
+  background-color: lightblue;
+  width: 50px;
+}
+.two2{
+  background-color: pink;
+  flex: 1;
+}
+.three2{
+  background-color:lightblue;
+  width: 75px;
+}

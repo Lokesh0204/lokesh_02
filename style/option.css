@@ -1,0 +1,46 @@
+.option-grid{
+  width: 100%;
+}
+.all,
+.football,
+.cricket,
+.music,
+.gaming,
+.kabbadi,
+.ucl,
+.man,
+.cinema,
+.news,
+.sports,
+.education,
+.isl
+{
+  margin-top: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  outline: none;
+  background-color:#0000000D;
+  border: none;
+  margin:12px 12px 12px 0px;
+  padding: 0px 12px;
+  height: 30px;
+  font-family: roboto,arial;
+  font-weight: 500;
+  font-size: 14px;
+}
+.all:hover,
+.football:hover,
+.cricket:hover,
+.music:hover,
+.gaming:hover,
+.kabbadi:hover,
+.ucl:hover,
+.man:hover,
+.cinema:hover,
+.news:hover,
+.sports:hover,
+.education:hover,
+.isl:hover{
+  cursor: pointer;
+  background-color:rgb(194, 192, 192);
+}
